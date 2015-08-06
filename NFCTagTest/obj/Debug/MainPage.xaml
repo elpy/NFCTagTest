@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="NFCTagTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NFCTagTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Text="Message to publish" HorizontalAlignment="Left" Margin="78,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="250"/>
+        <TextBlock Text="Recieved" HorizontalAlignment="Left" Margin="78,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="250" Foreground="White"/>
+        <TextBox x:Name="MessageToSendBox" HorizontalAlignment="Left" Margin="78,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="80"/>
+        <Button x:ConnectionId='1' x:Name="PublishMessageButton" Content="Publish Message" Width="250" HorizontalAlignment="Left" Margin="78,169,0,0" VerticalAlignment="Top"                                    />
+        <Button x:ConnectionId='2' x:Name="SubscribeForMessageButton" Content="Subscribe For Message" Width="250" HorizontalAlignment="Left" Margin="78,261,0,0" VerticalAlignment="Top"                                         />
+        <TextBox x:Name="RecievedMessageBox" HorizontalAlignment="Left" Margin="78,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="117" Width="250"/>
+    </Grid>
+</Page>
+

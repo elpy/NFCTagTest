@@ -1,0 +1,1 @@
+E:\Work\Claris\Other\NFCTagTest\NFCTagTest\NFCTagTest.csproj;neutral
